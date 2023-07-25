@@ -1,4 +1,4 @@
 //your JS code here. If required.
-if(document.getElementsByTagName("ul")=="Item 5"){
-	alert("The level of the element is: "+ ul[ul.length-1]);
-}
+let text = document.getElementById("level").innerText;
+let ans = text[text.length-1];
+alert("The level of the element is: " + ans);  
